@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/linear_layout">
+
+    <ImageView
+        android:id="@+id/image"
+        style="@style/cover_image"
+        android:layout_width="@dimen/list_categories_width"
+        android:layout_height="@dimen/list_categories_height"
+        android:src="@drawable/no_picture"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+
+        style="@style/linear_layout_vertical">
+
+        <LinearLayout style="@style/linear_layout">
+
+            <TextView
+                android:id="@+id/category"
+                style="@style/categoryText"
+                android:text="@string/subcategory"
+                tools:text="Subcategory Nr.:" />
+
+            <TextView
+                android:id="@+id/movie_id"
+                style="@style/categoryText"
+                tools:text="ID" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/movieTitles"
+            tools:text="Long placeholder title that should wrap to the text" />
+    </LinearLayout>
+</LinearLayout>

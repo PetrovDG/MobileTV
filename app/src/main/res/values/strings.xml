@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">MobileTV</string>
+
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No Internet connection.</string>
+
+    <!-- Text to display in the list when there are no movies [CHAR LIMIT=NONE] -->
+    <string name="no_movies">No movies found.</string>
+    <string name="no_series">No series found.</string>
+    <string name="no_songs">No songs found.</string>
+
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Settings</string>
+
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="settings_title">Category Settings</string>
+
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="series_subcategory_title">Children\'s series</string>
+
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="songs_subcategory_title">Songs</string>
+
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="movies_subcategory_title">Movies</string>
+
+    <!-- Label for List size option -->
+    <string name="listSize">"List Size (1"-"200)"</string>
+    <string name="listSizeDefault">10</string>
+
+    <!-- Label for List color option -->
+    <string name="key_background_color">backgroundColor</string>
+    <string name="background_color">Background Color</string>
+
+    <string name="category">Category Nr.:</string>
+    <string name="subcategory">Subcategory Nr.:</string>
+</resources>

@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.geostage.mobiletv">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_mobiletv"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_mobiletv"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".CategoryActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/settings_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CategoryActivity" />
+        </activity>
+        <activity
+            android:name=".Subcategory33.Subcat33Activity"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CategoryActivity" />
+        </activity>
+        <activity
+            android:name=".Subcategory32.Subcat32Activity"
+            android:label="@string/songs_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CategoryActivity" />
+        </activity>
+        <activity
+            android:name=".Subcategory34.Subcat34Activity"
+            android:label="@string/movies_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CategoryActivity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat98"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat99"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat77"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat122"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat65"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat107"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat108"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat123"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat119"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat112"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat87"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat62"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat90"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat116"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat120"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat79"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat126"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat106"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat118"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat102"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat109"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat125"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat95"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat75"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat72"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat97"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat74"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat80"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat91"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat93"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat89"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat92"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat86"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat85"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat113"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat81"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat104"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat117"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat82"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat83"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat101"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat114"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat103"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat94"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat130"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat110"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat84"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat105"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat100"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat128"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat124"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat121"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat96"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat78"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat129"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat115"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat111"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat127"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat88"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+        <activity
+            android:name=".SubSubCategories.SubSubCat69"
+            android:label="@string/series_subcategory_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Subcategory33.Subcat33Activity" />
+        </activity>
+    </application>
+
+</manifest>
