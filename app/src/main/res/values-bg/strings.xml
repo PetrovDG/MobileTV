@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MobileTV</string>
+    <string name="background_color">Цвят на екрана</string>
+    <string name="category">Категория номер:</string>
+    <string name="listSize">\"Размер на списъка (1\"-\"200)\"</string>
+    <string name="movies_subcategory_title">Филмчета</string>
+    <string name="no_internet_connection">Няма интернет връзка.</string>
+    <string name="no_movies">Не са открити филми.</string>
+    <string name="no_series">Не са открити сериали.</string>
+    <string name="no_songs">Не са открити песни.</string>
+    <string name="series_subcategory_title">Детски сериали</string>
+    <string name="settings_menu_item">Настройки</string>
+    <string name="settings_title">Настройки на категориите</string>
+    <string name="songs_subcategory_title">Песнички</string>
+    <string name="subcategory">Подкатегория номер:</string>
+</resources>
