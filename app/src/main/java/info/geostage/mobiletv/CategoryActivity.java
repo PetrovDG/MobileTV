@@ -241,13 +241,19 @@ public class CategoryActivity extends AppCompatActivity implements LoaderManager
             progressBar = findViewById(R.id.progress_bar);
             progressBar.setVisibility(View.GONE);
         }
-
     }
 
     @Override
     public void onLoaderReset(Loader<List<Movies>> loader) {
         // Loader reset, so we can clear out our existing data.
         moviesAdapter.clear();
+    }
+
+    @Override
+    public void onRestart() {
+        super.onRestart();
+        finish();
+        startActivity(getIntent());
     }
 }
 
